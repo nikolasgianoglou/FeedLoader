@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49840D1A2B8D00D40033795E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49840D192B8D00D40033795E /* HTTPClient.swift */; };
+		49840D1C2B8D01280033795E /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49840D1B2B8D01280033795E /* FeedItemsMapper.swift */; };
 		49A295212B7153D9001F2E7E /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 49A295202B7153D9001F2E7E /* EssentialFeed.docc */; };
 		49A295272B7153D9001F2E7E /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A2951C2B7153D9001F2E7E /* EssentialFeed.framework */; };
 		49A2952C2B7153D9001F2E7E /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A2952B2B7153D9001F2E7E /* RemoteFeedLoaderTests.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		49840D192B8D00D40033795E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		49840D1B2B8D01280033795E /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		49A2951C2B7153D9001F2E7E /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A2951F2B7153D9001F2E7E /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		49A295202B7153D9001F2E7E /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				49E4D00E2B74129C00126295 /* RemoteFeedLoader.swift */,
 				49840D192B8D00D40033795E /* HTTPClient.swift */,
+				49840D1B2B8D01280033795E /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				49E4D00F2B74129C00126295 /* RemoteFeedLoader.swift in Sources */,
 				49840D1A2B8D00D40033795E /* HTTPClient.swift in Sources */,
 				49A295392B7156C3001F2E7E /* FeedLoader.swift in Sources */,
+				49840D1C2B8D01280033795E /* FeedItemsMapper.swift in Sources */,
 				49A295372B71563E001F2E7E /* FeedItem.swift in Sources */,
 				49A295212B7153D9001F2E7E /* EssentialFeed.docc in Sources */,
 			);
