@@ -18,6 +18,7 @@
 		49A295372B71563E001F2E7E /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A295362B71563E001F2E7E /* FeedItem.swift */; };
 		49A295392B7156C3001F2E7E /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A295382B7156C3001F2E7E /* FeedLoader.swift */; };
 		49E4D00F2B74129C00126295 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4D00E2B74129C00126295 /* RemoteFeedLoader.swift */; };
+		49F4545F2B8FA9B6004F757D /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4545E2B8FA9B6004F757D /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		49A295362B71563E001F2E7E /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		49A295382B7156C3001F2E7E /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		49E4D00E2B74129C00126295 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		49F4545E2B8FA9B6004F757D /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				49E4D00E2B74129C00126295 /* RemoteFeedLoader.swift */,
 				49840D192B8D00D40033795E /* HTTPClient.swift */,
 				49840D1B2B8D01280033795E /* FeedItemsMapper.swift */,
+				49F4545E2B8FA9B6004F757D /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F4545F2B8FA9B6004F757D /* URLSessionHTTPClient.swift in Sources */,
 				49E4D00F2B74129C00126295 /* RemoteFeedLoader.swift in Sources */,
 				49840D1A2B8D00D40033795E /* HTTPClient.swift in Sources */,
 				49A295392B7156C3001F2E7E /* FeedLoader.swift in Sources */,
