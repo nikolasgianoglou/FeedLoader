@@ -1,5 +1,5 @@
 //
-//  LoadFeedResult.swift
+//  FeedLoader.swift
 //  EssentialFeed
 //
 //  Created by Nikolas Gianoglou Coelho on 20/11/26.
